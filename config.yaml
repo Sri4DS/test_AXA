@@ -1,0 +1,44 @@
+data_elements:
+  - name: customer_name
+    description: "Full name of the customer"
+    patterns: ["Name:", "CUSTOMER NAME", "Client Name", "BORROWER", "SURNAME"]
+    
+  - name: account_number
+    description: "Bank account number"
+    patterns: ["Account Number", "ACCOUNT NO", "A/C NUMBER"]
+
+  - name: customer_address
+    description: "Customer Address"
+    patterns: ["Address", "Client Address"]
+
+  - name: customer_postcode
+    description: "Customer Postcode"
+    patterns: ["Postcode"]
+    
+  - name: branch_name
+    description: "Bank branch name"
+    patterns: ["Branch Name", "BRANCH", "Branch"]
+    
+  - name: transaction_amount
+    description: "Transaction value/amount"
+    patterns: ["Transaction Value", "AMOUNT", "VALUE", "£", "$"]
+    
+  - name: date_of_birth
+    description: "Customer date of birth"
+    patterns: ["Date of Birth", "DOB", "Birth Date"]
+    
+  - name: email_address
+    description: "Email address"
+    patterns: ["Email", "E-mail", "email address"]
+    
+  - name: phone_number
+    description: "Phone contact number"
+    patterns: ["Phone", "Cell", "CONTACT NUMBER", "Tel"]
+    
+  - name: id_number
+    description: " Customer identification number"
+    patterns: ["ID Number", "ID No", "Identification Number", "National ID Number"]
+
+  - name: registration_date
+    description: " Customer registration date"
+    patterns: ["Date"]
